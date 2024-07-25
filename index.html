@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Cake Madammy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="hero">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Sweet Cake Madammy</h1>
+            <p>Kelezatan Tiada Tara!</p>
+            <a href="#products" class="btn">Explore Our Cakes</a>
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <h2>Tentang Kami</h2>
+        <p>Selamat datang di Sweet Cake Madamy, tempat bertemunya kualitas dan kelezatan! Kami sangat antusias membuat kue yang tidak hanya tampak menakjubkan tetapi juga terasa luar biasa. Misi kami adalah menghadirkan kegembiraan di setiap acara spesial dengan kreasi kami yang istimewa.</p>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <h2>Produk Kita</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="image/coklat.jpg" alt="Chocolate Cake">
+                <h3>Kue Ganache Cokelat</h3>
+                <p>Kue coklat yang lembut dan kaya dengan taburan ganache halus.</p>
+            </div>
+            <div class="product-item">
+                <img src="image/vanila.jpg" alt="Vanilla Cupcake">
+                <h3>Kue Mangkuk Vanila</h3>
+                <p>Kue mangkuk vanila lezat dengan lapisan krim mentega.</p>
+            </div>
+            <div class="product-item">
+                <img src="image/merah.jpg" alt="Red Velvet Cake">
+                <h3>Kue beludru merah</h3>
+                <p>Kue red velvet klasik dengan lapisan krim keju.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>Testimoni</h2>
+        <div class="testimonial-list">
+            <div class="testimonial-item">
+                <p>"Kue terenak yang pernah saya makan! Sweet Cake Madame membuat ulang tahun saya begitu istimewa!"</p>
+                <span>- Rendi</span>
+            </div>
+            <div class="testimonial-item">
+                <p>"Kue pernikahan kami sangat cantik dan lezat. Terima kasih telah membuat hari kami sempurna!"</p>
+                <span>- mia & usman</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+    <h2>Hubungi Kami</h2>
+    <form id="contact-form" action="send_email.php" method="post">
+        <input type="text" id="name" name="name" placeholder="Namamu" required>
+        <input type="email" id="email" name="email" placeholde="Emailmu" required>
+        <textarea id="message" name="message" placeholder="Pesan Anda" required></textarea>
+        <button type="submit" class="btn">Menguri Pesan</button>
+    </form>
+    <div id="form-response"></div>
+</section>
+
+
+    <footer>
+        <p>&copy; 2024 Sweet Cake Madammy. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
